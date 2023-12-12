@@ -1,3 +1,10 @@
+/* Wildcard selector */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 /* General styles */
 body {
   min-height: 100vh;
@@ -5,11 +12,9 @@ body {
   flex-direction: column;
   /* Generic project styles */
   color: #3a3a3a;
-  font-family: 'Lato', sans-serif;
 }
 
 h1, h2, h3 {
-  font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #252525;
@@ -18,9 +23,8 @@ h1, h2, h3 {
 /* Header */
 header {
   background-color: rgb(101 101 131);
-  padding: 0 1rem;
+  padding: 1rem 1rem;
   position: fixed;
-  z-index: 99;
   width: 100%;
   box-shadow: 0 2px 2px #3a3a3a;
   display: flex;
@@ -39,6 +43,11 @@ header a {
   list-style-type: none;
 }
 
-#menu>li {
-  margin-bottom: 1em;
+#menu > li {
+  margin: 0 0.5em;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
 }
