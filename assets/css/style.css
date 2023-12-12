@@ -24,7 +24,7 @@ h1, h2, h3 {
 header {
   background-color: rgb(101 101 131);
   padding: 1rem 1rem;
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   box-shadow: 0 2px 2px #3a3a3a;
   display: flex;
@@ -50,4 +50,19 @@ header a {
 nav ul {
   display: flex;
   flex-direction: row;
+}
+
+/* Footer */
+footer {
+  background-color: rgb(101 101 131);
+  width: 100%;
+}
+
+#row {
+  display: flex;
+  justify-content: space-between;
+}
+
+#row hr {
+  border: solid 1px #252525;
 }
