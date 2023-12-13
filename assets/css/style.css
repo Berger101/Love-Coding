@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Raleway:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 /* Wildcard selector */
 * {
@@ -20,7 +20,7 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #252525;
@@ -67,10 +67,10 @@ footer {
   display: flex;
   flex-direction: column;
   margin: auto;
+  margin-bottom: 0.5em;
 }
 
 #row hr {
-  /* border: solid 1px #252525; */
   height: 1em;
   border: 0;
   box-shadow: 0 10px 10px -10px #333 inset;
@@ -85,6 +85,17 @@ footer {
   color: #3a3a3a;
 }
 
+#social-networks {
+  display: flex;
+  gap: 0.2em 0.5em;
+  margin-left: 0.5em;
+}
+
+#social-networks i {
+  font-size: 160%;
+  padding: 5%;
+}
+
 /* Media query: tablets and larger (268px and up) */
 @media screen and (min-width: 768px) {
   
@@ -97,6 +108,7 @@ footer {
 
   #menu {
     display: flex;
+    font-size: 130%;
   }
 
   #menu > li {
@@ -119,6 +131,10 @@ footer {
     width: 70%;
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  #social-networks {
+    margin-left: 0;
   }
 
 }
