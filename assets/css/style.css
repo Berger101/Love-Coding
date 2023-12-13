@@ -23,22 +23,22 @@ h1, h2, h3 {
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #252525;
+  color: #4caf50;
 }
 
 /* Header */
 header {
-  background-color: rgb(101 101 131);
+  background-color: #191825;
   padding: 1rem 1rem;
   /* position: fixed; */
+  z-index: 999;
   width: 100%;
-  box-shadow: 0 2px 2px #3a3a3a;
-  display: block; 
+  box-shadow: 0 2px 2px #4caf50;
 }
 
 header a {
   text-decoration: none;
-  color: inherit;
+  color: #4caf50;
 }
 
 #menu {
@@ -56,9 +56,27 @@ nav ul {
   flex-direction: column;
 }
 
+/* Hero section */
+#hero {
+  height: 600px;
+  width: 100%;
+  background: url("https://picsum.photos/id/1042/2000/1000") no-repeat center center/cover;
+  position: relative;
+}
+
+#cover-text {
+  position: absolute;
+  bottom: 200px;
+}
+
+#cover-text > h2, #cover-text > h3  {
+  color: #4caf50;
+  text-align: center;
+}
+
 /* Footer */
 footer {
-  background-color: rgb(101 101 131);
+  background-color: #191825;
   /* width: 100%; */
 }
 
@@ -73,7 +91,7 @@ footer {
 #row hr {
   height: 1em;
   border: 0;
-  box-shadow: 0 10px 10px -10px #333 inset;
+  box-shadow: 0 10px 10px -10px #454b1b inset;
 }
 
 .followUs ul li {
@@ -82,7 +100,7 @@ footer {
 
 .followUs ul li a {
   text-decoration: none;
-  color: #3a3a3a;
+  color: #4caf50;
 }
 
 #social-networks {
@@ -94,6 +112,7 @@ footer {
 #social-networks i {
   font-size: 160%;
   padding: 5%;
+  color: #4caf50;
 }
 
 /* Media query: tablets and larger (268px and up) */
@@ -126,6 +145,12 @@ footer {
     flex-direction: row;
   }
 
+  /* Hero section */
+  #cover-text {
+    bottom: 200px;
+    left: 500px;
+  }
+
   /* Footer */
   #row {
     width: 70%;
@@ -142,6 +167,6 @@ footer {
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
   #menu a:hover {
-      border-bottom: 1px solid #3a3a3a;
+      border-bottom: 1px solid #454b1b;
   }
 }
