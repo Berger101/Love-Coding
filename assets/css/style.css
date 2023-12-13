@@ -1,3 +1,6 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Raleway:wght@200;300;400;500;600;700&display=swap');
+
 /* Wildcard selector */
 * {
   padding: 0;
@@ -13,9 +16,11 @@ body {
   /* Generic project styles */
   color: #3a3a3a;
   overflow: scroll; /* Show scrollbars */
+  font-family: 'Lato', sans-serif;
 }
 
 h1, h2, h3 {
+  font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #252525;
@@ -43,7 +48,7 @@ header a {
 }
 
 #menu > li {
-  margin-right: 0.5em;
+  margin-top: 1em;
 }
 
 nav ul {
@@ -62,10 +67,6 @@ footer {
   display: flex;
   flex-direction: column;
   margin: auto;
-}
-
-#row h3 {
-  font-size: 0.8em;
 }
 
 #row hr {
@@ -98,6 +99,10 @@ footer {
     display: flex;
   }
 
+  #menu > li {
+    padding-left: 1rem;
+  }
+
   #logo {
     font-size: 280%;
     line-height: 75px;
@@ -116,4 +121,11 @@ footer {
     justify-content: space-between;
   }
 
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+  #menu a:hover {
+      border-bottom: 1px solid #3a3a3a;
+  }
 }
