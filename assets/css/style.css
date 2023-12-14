@@ -146,7 +146,6 @@ footer {
 #signUp-box {
   width: 90%;
   margin: 20px auto;
-  color: #3a3a3a;
 }
 
 #signUp-box h2 {
@@ -196,6 +195,11 @@ footer {
   #technologyPage h2 {
     font-size: 280%;
     grid-column: span 2;
+  }
+
+  /* Sign-up section */
+  #signUp-box {
+    width: 50%;
   }
 }
 
@@ -247,6 +251,17 @@ footer {
   /* Menu */
   #menu a:hover {
     border-bottom: 1px solid #454b1b;
+  }
+  
+  /* Technology section */
+  .box {
+    width: 70%;
+    margin: auto;
+  }
+
+  /* Sign-up section */
+  #signUp-box {
+    width: 30%;
   }
 
   /* Footer */
