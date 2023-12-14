@@ -68,6 +68,9 @@ nav ul {
   width: 100%;
   background: url("https://picsum.photos/id/1042/2000/1000") no-repeat center center/cover;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #cover-text {
@@ -223,6 +226,7 @@ footer {
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
+
   /* Technologies Section */
   #technologyPage h2 {
     font-size: 280%;
@@ -241,7 +245,7 @@ footer {
   .aside p {
     font-size: 1.3em;
   }
-  
+
   .aside li {
     font-size: 1.2em;
   }
@@ -252,7 +256,7 @@ footer {
   }
 }
 
-/* Media query: tablets and larger (268px and up) */
+/* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
   
   /* Header */
@@ -280,12 +284,6 @@ footer {
   /* Navbar */
   nav ul {
     flex-direction: row;
-  }
-
-  /* Hero section */
-  #cover-text {
-    bottom: 200px;
-    left: 500px;
   }
 
   /* Footer */
