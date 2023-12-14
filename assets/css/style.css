@@ -128,8 +128,6 @@ footer {
 }
 
 #technologyPage h2 {
-  /* font-size: 280%; */
-  /* word-break: break-all; */
   justify-self: center;
 }
 
@@ -142,6 +140,54 @@ footer {
   text-decoration: none;
   display: grid;
   text-align: center;
+}
+
+/* Sign up section */
+#signUp-box {
+  width: 90%;
+  margin: 20px auto;
+  color: #3a3a3a;
+}
+
+#signUp-box h2 {
+  border-bottom: 4px solid #4caf50;
+}
+
+.textbox {
+  overflow: hidden;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid #4caf50;
+}
+
+.textbox i {
+  width: 25px;
+  float: left;
+  text-align: center;
+}
+
+.textbox input {
+  border: none;
+  /* outline: none;
+  background: none; */
+  font-size: 1em;
+  float: left;
+  margin: 0 10px;
+}
+
+::placeholder {
+  color: #3a3a3a;
+}
+
+.btn {
+  width: 100%;
+  background: none;
+  border: 2px solid #4caf50;
+  padding: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin: 12px 0;
+  font-weight: bold;
 }
 
 /* Media query: large or landscape phones (576px and up) */
