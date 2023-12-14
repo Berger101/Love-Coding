@@ -147,6 +147,11 @@ footer {
   background-color: #191825;
 }
 
+.aside {
+  margin: auto;
+  width: 90%;
+}
+
 .aside > div {
   margin-bottom: 10px;
 }
@@ -216,6 +221,15 @@ footer {
   #technologyPage h2 {
     font-size: 280%;
     grid-column: span 2;
+  }
+
+  /* Aside section */
+  .aside h3 {
+    font-size: 180%;
+  }
+
+  .aside p {
+    font-size: 1.3em;
   }
 
   /* Sign-up section */
@@ -288,8 +302,12 @@ footer {
   }
   
   .aside {
-    margin-top: 50px;
+    margin: auto;
     width: 70%;
+  }
+
+  .aside-right {
+    margin: 20px auto;
   }
 
   /* Sign-up section */
