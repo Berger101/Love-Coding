@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -10,7 +11,9 @@
   <title>Code Loving</title>
   <link rel="shortcut icon" href="assets/images/icon.png">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
+
 <body>
 
   <!-- Header -->
@@ -67,6 +70,34 @@
         </div>
       </div>
     </section>
+
+    <!-- Sign up section -->
+    <section>
+      <div class="login-box">
+        <h1>Let's get you signed up!</h1>
+        <form action="https://formdump.codeinstitute.net" method="POST">
+
+          <div class="textbox">
+            <i class="material-icons">person</i>
+            <input type="text" name="username" placeholder="Username" required>
+          </div>
+    
+          <div class="textbox">
+            <i class="material-icons">mail</i>
+            <input type="email" name="email" placeholder="Email" required>
+          </div>
+      
+          <div class="textbox">
+            <i class="material-icons">lock</i>
+            <input type="password" name="password" placeholder="Password" required>
+          </div>
+      
+          <button type="submit" class="btn" name="signUp_btn">Sign Up Now!</button>
+        </form>
+
+      </div>
+    </section>
+
   </main>
 
   <!-- Footer -->
