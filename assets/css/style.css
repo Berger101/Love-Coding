@@ -142,6 +142,13 @@ footer {
   text-align: center;
 }
 
+/* Aside section */
+#aside-layout {
+  background-color: #191825;
+}
+
+
+
 /* Sign up section */
 #signUp-box {
   width: 90%;
@@ -257,6 +264,27 @@ footer {
   .box {
     width: 70%;
     margin: auto;
+  }
+
+  /* Aside section */
+  #two-col-layout {
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 70% 30%;
+  }
+  
+  .aside {
+    margin-top: 50px;
+    width: 70%;
+  }
+  
+  .aside p {
+    color: #fafafa;
+  }
+  
+  .figure img {
+    max-width: 100%;
   }
 
   /* Sign-up section */
