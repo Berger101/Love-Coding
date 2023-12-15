@@ -231,6 +231,10 @@ footer {
   font-weight: bold;
 }
 
+.hidden {
+  display: none;
+}
+
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
 
@@ -339,8 +343,20 @@ footer {
   }
 
   /* Sign-up section */
+  #two-col-layout-signUp {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin: 20px auto;
+  }
+
   #signUp-box {
-    width: 30%;
+    width: 50%;
+    margin: auto;
+  }
+
+  .hidden {
+    display: block;
   }
 
   /* Footer */
