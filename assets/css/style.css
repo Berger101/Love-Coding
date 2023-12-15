@@ -240,6 +240,10 @@ footer {
     grid-column: span 2;
   }
 
+  #technologyPage {
+    margin: 40px auto;
+  }
+
   .box a {
     font-size: 1.3em;
   }
@@ -305,11 +309,6 @@ footer {
   /* Menu */
   #menu a:hover {
     border-bottom: 1px solid #454b1b;
-  }
-
-  /* Technology */
-  #technologyPage {
-    margin: 40px auto;
   }
 
   /* Hero Section */
