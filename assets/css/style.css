@@ -307,6 +307,11 @@ footer {
     border-bottom: 1px solid #454b1b;
   }
 
+  /* Technology */
+  #technologyPage {
+    margin: 40px auto;
+  }
+
   /* Hero Section */
   #hero {
     height: 600px;
