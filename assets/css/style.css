@@ -94,43 +94,6 @@ nav ul {
   letter-spacing: 2px;
 }
 
-/* Footer */
-footer {
-  background-color: #191825;
-  color: #fafafa;
-}
-
-#row {
-  width: 90%;
-  display: flex;
-  flex-direction: column;
-  margin: 20px auto;
-  margin-bottom: 0.5em;
-  text-align: center;
-}
-
-/* FollowUs */
-#followUs ul li {
-  list-style-type: none;
-}
-
-#followUs ul li a {
-  text-decoration: none;
-}
-
-#social-networks {
-  display: flex;
-  gap: 0.2em 0.5em;
-  margin-left: 0.5em;
-  justify-content: center;
-}
-
-#social-networks i {
-  font-size: 160%;
-  padding: 5%;
-  color: #fafafa;
-}
-
 /* Technologies Section */
 #technologyPage {
   width: 90%;
@@ -236,6 +199,43 @@ footer {
 
 .hidden {
   display: none;
+}
+
+/* Footer */
+footer {
+  background-color: #191825;
+  color: #fafafa;
+}
+
+#row {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+/* FollowUs */
+#followUs ul li {
+  list-style-type: none;
+}
+
+#followUs ul li a {
+  text-decoration: none;
+}
+
+#social-networks {
+  display: flex;
+  gap: 0.2em 0.5em;
+  margin-left: 0.5em;
+  justify-content: center;
+}
+
+#social-networks i {
+  font-size: 160%;
+  padding: 5%;
+  color: #fafafa;
 }
 
 /* Media query: large or landscape phones (576px and up) */
@@ -378,6 +378,7 @@ footer {
     margin: auto;
   }
 
+  /* Contact us section */
   .contact-network {
     width: 50%;
     margin: auto;
