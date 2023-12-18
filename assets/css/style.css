@@ -139,6 +139,7 @@ nav ul {
 
 .aside p, .aside li {
   color: #fafafa;
+  margin-bottom: 0.5em;
 }
 
 #two-col-layout {
@@ -216,6 +217,24 @@ footer {
   text-align: center;
 }
 
+/* Contact us */
+.contact-network > div {
+  display: flex;
+}
+
+.contact-network a {
+  color: #fafafa;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 0.5em;
+  white-space: nowrap
+}
+
+.contact-network p, #aboutUs p {
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
 /* FollowUs */
 #followUs ul li {
   list-style-type: none;
@@ -271,6 +290,12 @@ footer {
   /* Sign-up section */
   #signUp-box {
     width: 50%;
+  }
+
+  /* Contact us section */
+  .contact-network {
+    width: 30%;
+    margin: auto;
   }
 }
 
@@ -379,33 +404,14 @@ footer {
   }
 
   /* Contact us section */
+
   .contact-network {
     width: 50%;
     margin: auto;
-  }
-
-  .contact-network > div {
-    display: flex;
-  }
-
-  .contact-network a {
-    color: #fafafa;
-    text-decoration: none;
-    font-weight: bold;
-    margin-left: 0.5em;
-    white-space: nowrap
   }
 
   .contact-network a:hover {
     border-bottom: 1px solid #454b1b;
   }
 
-  .contact-network p {
-    margin-bottom: 0.3em;
-    font-weight: bold;
-  }
-
-  #aboutUs p {
-    font-weight: bold;
-  }
 }
