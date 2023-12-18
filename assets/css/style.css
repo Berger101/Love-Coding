@@ -1,6 +1,9 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
+/* adda lite mer mörkare färg på gröna texter */
+/* fixa input på sign-up page */
+
 /* Wildcard selector */
 * {
   padding: 0;
@@ -94,6 +97,7 @@ nav ul {
 /* Footer */
 footer {
   background-color: #191825;
+  color: #fafafa;
 }
 
 #row {
@@ -106,13 +110,12 @@ footer {
 }
 
 /* FollowUs */
-.followUs ul li {
+#followUs ul li {
   list-style-type: none;
 }
 
-.followUs ul li a {
+#followUs ul li a {
   text-decoration: none;
-  color: #4caf50;
 }
 
 #social-networks {
@@ -361,8 +364,17 @@ footer {
 
   /* Footer */
   #row {
-    width: 70%;
+    width: 100%;
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  #contactUs, #aboutUs, #followUs {
+    flex-basis: 100%;
+  }
+
+  .footerHr {
+    width: 50%;
+    margin: auto;
   }
 }
