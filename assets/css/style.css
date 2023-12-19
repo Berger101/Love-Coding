@@ -294,6 +294,10 @@ footer {
   }
 
   /* Sign-up section */
+  #signUp {
+    padding: 10px 0;
+  }
+   
   #signUp-box {
     width: 50%;
   }
