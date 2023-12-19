@@ -1,9 +1,6 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
-/* adda lite mer mörkare färg på gröna texter */
-/* fixa input på sign-up page */
-
 /* Wildcard selector */
 * {
   padding: 0;
@@ -181,8 +178,6 @@ nav ul {
 
 .textbox input {
   border: none;
-  /* outline: none;
-  background: none; */
   font-size: 1em;
   float: left;
   margin: 0 10px;
@@ -300,6 +295,10 @@ footer {
   /* Sign-up section */
   #signUp-box {
     width: 50%;
+  }
+
+  .textbox input {
+    width: 80%;
   }
 
   /* Contact us section */
