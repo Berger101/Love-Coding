@@ -297,6 +297,10 @@ footer {
     width: 30%;
     margin: auto;
   }
+
+  #aboutUs p {
+    text-align: justify;
+  }
 }
 
 /* Media query: tablets and larger (768px and up) */
