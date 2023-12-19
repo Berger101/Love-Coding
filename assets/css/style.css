@@ -22,6 +22,11 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+main {
+  /* Push main content down to accommodate larger header */
+  margin-top: 190px;
+}
+
 h1, h2, h3 {
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
@@ -39,7 +44,7 @@ hr {
 header {
   background-color: #191825;
   padding: 1rem 1rem;
-  position: sticky;
+  position: fixed;
   z-index: 999;
   width: 100%;
   box-shadow: 0 2px 2px #4caf50;
@@ -259,6 +264,11 @@ footer {
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
+
+  main {
+    /* Push main content down to accommodate larger header */
+    margin-top: 100px;
+  }
 
   /* Technologies Section */
   #technologyPage h2 {
