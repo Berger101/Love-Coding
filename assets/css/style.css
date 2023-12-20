@@ -267,6 +267,10 @@ footer {
   color: #fafafa;
 }
 
+#social-networks i:hover {
+  border-bottom: 1px solid #454b1b;
+}
+
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
 
