@@ -242,6 +242,10 @@ footer {
   font-weight: bold;
 }
 
+#aboutUs p {
+  text-align: left;
+}
+
 .contact-network a:hover {
   border-bottom: 1px solid #454b1b;
 }
@@ -326,9 +330,6 @@ footer {
     margin: auto;
   }
 
-  #aboutUs p {
-    text-align: justify;
-  }
 }
 
 /* Media query: tablets and larger (768px and up) */
