@@ -275,6 +275,26 @@ footer {
   border-bottom: 1px solid #454b1b;
 }
 
+/* 404 error page */
+#error-message {
+  text-align: center;
+}
+
+#error-message h1 {
+  margin-bottom: 10px;
+  font-size: 3em;
+}
+
+#error-message p {
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+
+.error-link {
+  text-decoration: none;
+  color: #3a3a3a;
+}
+
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
 
