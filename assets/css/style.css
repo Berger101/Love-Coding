@@ -118,9 +118,8 @@ nav ul {
   border: solid 1px #454b1b;
 }
 
-.box a {
+.box p {
   color: #3a3a3a;
-  text-decoration: none;
   display: grid;
   text-align: center;
 }
@@ -294,7 +293,7 @@ footer {
     margin: 40px auto;
   }
 
-  .box a {
+  .box p {
     font-size: 1.3em;
   }
 
