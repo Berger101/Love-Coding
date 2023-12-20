@@ -107,6 +107,7 @@ nav ul {
 
 #technologyPage h2 {
   justify-self: center;
+  color: #48a54c;
 }
 
 .box {
@@ -161,7 +162,7 @@ nav ul {
 
 #signUp-box h2 {
   border-bottom: 4px solid #4caf50;
-  background-color: rgba(0, 0, 0, 0.1);
+  color: #48a54c;
 }
 
 .textbox {
