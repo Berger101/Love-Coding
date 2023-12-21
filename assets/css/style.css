@@ -204,6 +204,14 @@ nav ul {
   font-weight: bold;
 }
 
+button:hover {background-color: #4caf50}
+
+button:active {
+  background-color: #4caf50;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 .hidden {
   display: none;
 }
