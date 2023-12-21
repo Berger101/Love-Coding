@@ -46,3 +46,4 @@ Accessibility
 <ul>
   <li>I confirmed that the colors and fonts chosen are easy to read and accessible by running it through the official <a href="https://pagespeed.web.dev/">lighthouse (PageSpeed) validator</a>.</li>
 </ul>
+<img src="assets/images/accessibility.png" width="800" height="500">
