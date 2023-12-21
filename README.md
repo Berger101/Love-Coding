@@ -31,3 +31,18 @@ Navigation
   <li>I discovered that the change of name did not update in the GitHub repository.</li>
   <li>Removing the image from the GitHub repository and uploading it again fixed the problem.</li>
 </ul>
+
+## Validator Testing
+
+HTML
+<ul>
+  <li>No errors were returned when passing through the official <a href="https://validator.w3.org/">W3C validator</a>.</li>
+</ul>
+CSS
+<ul>
+  <li>No errors were found when passing through the official <a href="https://jigsaw.w3.org/css-validator/">(Jigsaw) validator</a>.</li>
+</ul>
+Accessibility
+<ul>
+  <li>I confirmed that the colors and fonts chosen are easy to read and accessible by running it through the official <a href="https://pagespeed.web.dev/">lighthouse (PageSpeed) validator</a>.</li>
+</ul>
