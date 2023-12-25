@@ -4,7 +4,10 @@ A publication that focuses on helping developers practice their skills no matter
 
 <img src="assets/images/amiresponsive.png">
 
-###
+### Contribution Bug
+<ul>
+  <li>There was a bug where the site now have two contributors, same person but two different accounts, the bug is explained down below at the bug section.</li>
+</ul>
 
 ## Wireframes
 
@@ -30,10 +33,17 @@ Navigation
 
 ## Bugs
 
-<ul>
+<b>Solved bugs</b>
+<ul> <b>Image bug</b>
   <li>When I deployed my project to GitHub Pages I discovered that one image file path was broken due to me changing the filename from camel case to only small letters.</li>
   <li>I discovered that the change of name did not update in the GitHub repository.</li>
   <li>Removing the image from the GitHub repository and uploading it again fixed the problem.</li>
+</ul>
+
+<ul> <b>Contribution bug</b>
+  <li>When I updated my README file I realized that my commits from VS Code came from my old GitHub account and the README update from my new GitHub account therefore having two contributors.</li>
+  <li>Having already changed the GitHub account on VS Code and removed the old GitHub account windows credentials for the new one and still having the issue I realized that the bug still remained too late.</li>
+  <li>Furthermore to the previous fix, removing the .gitconfig file in C:\Users\user and restarting VS Code fixed the error.</li>
 </ul>
 
 ## Validator Testing
