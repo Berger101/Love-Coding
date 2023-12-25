@@ -1,6 +1,10 @@
 # Code Loving
 
+A publication that focuses on helping developers practice their skills no matter what level of their career they're at: from beginners looking to get their first job without a degree, to people looking to tackle more advanced topics and tutorials. We do tutorials and longer courses on technical topics. We also do news items that show how free and open source technologies are being used and impacting real people.
+
 <img src="assets/images/amiresponsive.png">
+
+###
 
 ## Wireframes
 
