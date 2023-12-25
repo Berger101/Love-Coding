@@ -1,6 +1,6 @@
 # Code Loving
 
-<img src="assets/images/heroimage.jpg" width="800">
+<img src="assets/images/amiresponsive.png">
 
 ## Wireframes
 
