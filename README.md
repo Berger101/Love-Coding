@@ -23,13 +23,33 @@ Navigation
 </ul>
 <img src="assets/images/menu.png">
 
-The Header
+The Hero
 <ul>
-  <li>The header shows the name of the site, continuing the sites font color and theme.</li>
-  <li>The header explains that the site is for teaching code.</li>
+  <li>The hero image shows the name of the site, continuing the sites font color and theme.</li>
+  <li>The hero image explains that the site is for teaching code.</li>
   <li>This section explains that it is for users who wants to learn how to code.</li>
 </ul>
+<img src="assets/images/headerimage.png">
 
+Home Section
+<ul>
+  <li>The home section give insight on which technologies is available to learn from the site.</li>
+</ul>
+<img src="assets/images/technologies.png">
+
+Technologies Section
+<ul>
+  <li>The technologies section has information on what Love Coding promises to it's students and what we focus on.</li>
+</ul>
+<img src="assets/images/lovecodingsection.png">
+
+Sign up Section
+<ul>
+  <li>The sign up section has a form to register for a newsletter.</li>
+  <li>The form register a username and an email address.</li>
+  <li>The sign up form is important to the user to keep updated on important changes and news to come.</li>
+</ul>
+<img src="assets/images/newsletter.png">
 
 ## Testing
 
