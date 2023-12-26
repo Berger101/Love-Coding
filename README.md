@@ -94,15 +94,19 @@ HTML
 <ul>
   <li>No errors were returned when passing through the official <a href="https://validator.w3.org/">W3C validator</a>.</li>
 </ul>
+<img src="assets/images/validatehtml.png">
+
 CSS
 <ul>
   <li>No errors were found when passing through the official <a href="https://jigsaw.w3.org/css-validator/">(Jigsaw) validator</a>.</li>
 </ul>
+<img src="assets/images/validatecss.png">
+
 Accessibility
 <ul>
   <li>I confirmed that the colors and fonts chosen are easy to read and accessible by running it through the official <a href="https://pagespeed.web.dev/">lighthouse (PageSpeed) validator</a>.</li>
 </ul>
-<img src="assets/images/accessibility.png" width="800" height="500">
+<img src="assets/images/accessibility.png">
 
 ## Deployment
 
@@ -113,3 +117,23 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
   <li>Once the main branch has been selected, the page provided the link to the completed website</li>
 </ul>
 The live link can be found here - <a href="https://berger101.github.io/codeLoving/">Love Coding</a>
+
+## Credits
+
+Content
+<ul>
+  <li>The text from the Coding section and the footer was taken from <a href="https://code-love.com/page/5/">code-love</a></li>
+  <li>The icons in the footer were taken from <a href="https://fontawesome.com/">Font Awesome</a></li>
+  <li>The icons in the sign up section were taken from <a href="https://fonts.google.com/icons">Google Fonts</a></li>
+</ul>
+
+Styling
+<ul>
+  <li>The styling for the header and menu was largely taken from the CI <a href="https://code-institute-org.github.io/love-running-2.0/index.html">Love Running</a> project.</li>
+</ul>
+
+Media
+<ul>
+  <li>The hero image was taken from <a href="https://picsum.photos/">Picsum</a></li>
+  <li>The images from Coding and Sign up section was taken from <a href="https://unsplash.com/">Unsplash</a></li>
+</ul>
