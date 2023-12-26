@@ -100,6 +100,22 @@ nav ul {
   letter-spacing: 2px;
 }
 
+/* About this course section */
+#aboutSection {
+  margin: 20px auto;
+  background-color: #191825;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+#aboutSection h2 {
+  font-size: 1.2em;
+}
+
+#aboutSection p {
+  color: #fafafa;
+}
+
 /* Technologies Section */
 #technologyPage {
   width: 90%;
@@ -310,6 +326,15 @@ footer {
     margin-top: 100px;
   }
 
+  /* About this course section */
+  #aboutSection h2 {
+    font-size: 1.5em;
+  }
+
+  #aboutSection p {
+    font-size: 1.3em;
+  }  
+
   /* Technologies Section */
   #technologyPage h2 {
     font-size: 280%;
@@ -401,6 +426,19 @@ footer {
   /* Hero Section */
   #hero {
     height: 600px;
+  }
+
+  /* About this course section */
+  #aboutSection {
+    width: 50%;
+  }
+
+  #aboutSection h2 {
+    margin: 5px 10px;
+  }
+  
+  #aboutSection p {
+    margin: 10px 10px;
   }
   
   /* Technology section */
