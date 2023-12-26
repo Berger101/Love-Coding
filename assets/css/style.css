@@ -24,6 +24,7 @@ main {
   margin-top: 190px;
 }
 
+/* h1, h2 and h3 styling largely taken from Love Running project */
 h1, h2, h3 {
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
@@ -38,6 +39,7 @@ hr {
 }
 
 /* Header */
+/* Header and menu styling largely taken from Love Running project */
 header {
   background-color: #191825;
   padding: 1rem 1rem;
