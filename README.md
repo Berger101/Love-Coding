@@ -1,6 +1,13 @@
 # Code Loving
 
-<img src="assets/images/heroimage.jpg" width="800">
+<a href="https://berger101.github.io/codeLoving/">Code Loving</a> is a publication that focuses on helping developers practice their skills no matter what level of their career they're at: from beginners looking to get their first job without a degree, to people looking to tackle more advanced topics and tutorials. We do tutorials and longer courses on technical topics. We also do news items that show how free and open source technologies are being used and impacting real people.
+
+<img src="assets/images/amiresponsive.png">
+
+### Contribution Bug
+<ul>
+  <li>There was a bug where the site now have two contributors, same person but two different accounts, the bug is explained down below at the bug section.</li>
+</ul>
 
 ## Wireframes
 
@@ -14,6 +21,15 @@ Navigation
   <li>The other navigation links are to the right: Home, Technologies and Sign up which link to different sections of the same page.</li>
   <li>The menu is in a fixed position which makes it easy to navigate around the page when scrolling.</li>
 </ul>
+<img src="assets/images/menu.png">
+
+The Header
+<ul>
+  <li>The header shows the name of the site, continuing the sites font color and theme.</li>
+  <li>The header explains that the site is for teaching code.</li>
+  <li>This section explains that it is for users who wants to learn how to code.</li>
+</ul>
+
 
 ## Testing
 
@@ -26,10 +42,17 @@ Navigation
 
 ## Bugs
 
-<ul>
+<b>Solved bugs</b>
+<ul> <b>Image bug</b>
   <li>When I deployed my project to GitHub Pages I discovered that one image file path was broken due to me changing the filename from camel case to only small letters.</li>
   <li>I discovered that the change of name did not update in the GitHub repository.</li>
   <li>Removing the image from the GitHub repository and uploading it again fixed the problem.</li>
+</ul>
+
+<ul> <b>Contribution bug</b>
+  <li>When I updated my README file I realized that my commits from VS Code came from my old GitHub account and the README update from my new GitHub account therefore having two contributors.</li>
+  <li>Having already changed the GitHub account on VS Code and removed the old GitHub account windows credentials for the new one and still having the issue I realized that the bug still remained too late.</li>
+  <li>Furthermore to the previous fix, removing the .gitconfig file in C:\Users\user and restarting VS Code fixed the bug.</li>
 </ul>
 
 ## Validator Testing
