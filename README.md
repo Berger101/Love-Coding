@@ -21,6 +21,15 @@ Navigation
   <li>The other navigation links are to the right: Home, Technologies and Sign up which link to different sections of the same page.</li>
   <li>The menu is in a fixed position which makes it easy to navigate around the page when scrolling.</li>
 </ul>
+<img src="assets/images/menu.png">
+
+The Header
+<ul>
+  <li>The header shows the name of the site, continuing the sites font color and theme.</li>
+  <li>The header explains that the site is for teaching code.</li>
+  <li>This section explains that it is for users who wants to learn how to code.</li>
+</ul>
+
 
 ## Testing
 
@@ -43,7 +52,7 @@ Navigation
 <ul> <b>Contribution bug</b>
   <li>When I updated my README file I realized that my commits from VS Code came from my old GitHub account and the README update from my new GitHub account therefore having two contributors.</li>
   <li>Having already changed the GitHub account on VS Code and removed the old GitHub account windows credentials for the new one and still having the issue I realized that the bug still remained too late.</li>
-  <li>Furthermore to the previous fix, removing the .gitconfig file in C:\Users\user and restarting VS Code fixed the error.</li>
+  <li>Furthermore to the previous fix, removing the .gitconfig file in C:\Users\user and restarting VS Code fixed the bug.</li>
 </ul>
 
 ## Validator Testing
