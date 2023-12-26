@@ -31,15 +31,18 @@ The Hero
 </ul>
 <img src="assets/images/headerimage.png">
 
-Home Section
+Technologies Section
 <ul>
-  <li>The home section give insight on which technologies is available to learn from the site.</li>
+  <li>The technologies section give insight on which technologies is available to learn from the site and what it's all about.</li>
+  <li>The section has information on what Love Coding promises to it's students and what we focus on.</li>
+  <li>The section shows the user what programming languages you can learn from joining the course.</li>
 </ul>
 <img src="assets/images/technologies.png">
 
-Technologies Section
+Coding Section
 <ul>
-  <li>The technologies section has information on what Love Coding promises to it's students and what we focus on.</li>
+  <li>The coding section promises what you will gain from joining the course.</li>
+  <li>The section have a image with some code seen trough the lens of some glasses.</li>
 </ul>
 <img src="assets/images/lovecodingsection.png">
 
@@ -48,8 +51,18 @@ Sign up Section
   <li>The sign up section has a form to register for a newsletter.</li>
   <li>The form register a username and an email address.</li>
   <li>The sign up form is important to the user to keep updated on important changes and news to come.</li>
+  <li>The sign up section have a image shown in desktop view but the image is removed for mobile view.</li>
 </ul>
 <img src="assets/images/newsletter.png">
+
+Footer
+<ul>
+  <li>The footer invites the user to three different parts a contact us, about us and follow us section.</li>
+  <li>The contact section show the user how you can get in contact with the Love Coding company.</li>
+  <li>The about us section contain text on what the course is about.</li>
+  <li>The follow us section includes links to the relevant social media sites for Love Coding.</li>
+</ul>
+<img src="assets/images/footer.png">
 
 ## Testing
 
