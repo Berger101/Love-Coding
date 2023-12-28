@@ -1,6 +1,6 @@
-# Code Loving
+# Love Coding
 
-<a href="https://berger101.github.io/codeLoving/">Code Loving</a> is a publication that focuses on helping developers practice their skills no matter what level of their career they're at: from beginners looking to get their first job without a degree, to people looking to tackle more advanced topics and tutorials. We do tutorials and longer courses on technical topics. We also do news items that show how free and open source technologies are being used and impacting real people.
+<a href="https://berger101.github.io/Love-Coding/">Love Coding</a> is a publication that focuses on helping developers practice their skills no matter what level of their career they're at: from beginners looking to get their first job without a degree, to people looking to tackle more advanced topics and tutorials. We do tutorials and longer courses on technical topics. We also do news items that show how free and open source technologies are being used and impacting real people.
 
 <img src="assets/images/amiresponsive.png">
 
@@ -17,7 +17,7 @@
 
 Navigation
 <ul> 
-  <li>Featured at the top of the page, the navigation shows the club name in the left corner: CODE LOVING that links to the top of the page.</li>
+  <li>Featured at the top of the page, the navigation shows the club name in the left corner: LOVE CODING that links to the top of the page.</li>
   <li>The other navigation links are to the right: Home, Technologies and Sign up which link to different sections of the same page.</li>
   <li>The menu is in a fixed position which makes it easy to navigate around the page when scrolling.</li>
 </ul>
@@ -116,7 +116,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
   <li>From the Source section drop-down menu, select the Main Branch</li>
   <li>Once the main branch has been selected, the page provided the link to the completed website</li>
 </ul>
-The live link can be found here - <a href="https://berger101.github.io/codeLoving/">Love Coding</a>
+The live link can be found here - <a href="https://berger101.github.io/Love-Coding/">Love Coding</a>
 
 ## Credits
 
